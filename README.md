@@ -1,6 +1,10 @@
 # myportfolio
 Developed by Gengineering using SvelteJS, this is my portfolio project.
 
+**Tools**
+- SvelteJS
+- mdsvex for blog
+
 
 ## Figma File
 https://www.figma.com/file/H4pfy1753xTlvJmX7xLcE4/Gen's-Portfolio?node-id=113%3A636&mode=dev
