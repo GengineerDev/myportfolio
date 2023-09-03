@@ -4,6 +4,8 @@
     import '../styles.css';
 </script>
 
+<link rel="stylesheet" href="/fonts/fonts.css">
+
 <Navbar />
 <slot />
 <Footer />
