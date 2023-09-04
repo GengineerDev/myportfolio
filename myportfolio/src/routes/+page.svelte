@@ -8,3 +8,7 @@
 
 <h1>Testing</h1>
 <p class="body-3">Hahaha.</p>
+
+<div id="#about"></div>
+<div id="#works"></div>
+<div id="#contact"></div>

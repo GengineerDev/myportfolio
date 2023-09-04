@@ -1,37 +1,47 @@
 :root {
-    --primary: #FF5800;
+    --pantone-orange: #FF5800;
     --gradient: linear-gradient(166deg, #FF5800 -2.33%, #FF8A00 90.04%);
     --gradient_yellow-orange: linear-gradient(265deg, #FFC635 5.6%, #FF7A00 118.86%);
     --red_danger: #DC2626;
     --green_success: #16A34A;
     --black: #121212;
+    --white: #f7f9fc;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--black);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 body {
     color: var(--black);
+    padding: 120px 32px 0;
+    background-color: var(--white);
+    font-family: 'General Sans Medium', 'Times New Roman', Times, serif;
+}
+
+.display, h1, h2, .subheadings-1, .subheadings-3, label {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-weight: 700;
 }
 
 .display {
-    font-family: 'General Sans Semibold', 'Times New Roman', Times, serif;
     font-size: 64px;
 }
 
-h1 {
-    font-family: 'Space Grotesk Variable', sans-serif;
+h1, h2 {
     font-size: 48px;
-    font-weight: 700;
-}
-
-h2 {
-    font-family: 'Space Grotesk Variable', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
 }
 
 .subheadings-1 {
-    font-family: 'Space Grotesk Variable', sans-serif;
     font-size: 32px;
-    font-weight: 700;
 }
 
 .subheadings-2 {
@@ -40,28 +50,25 @@ h2 {
 }
 
 .subheadings-3 {
-    font-family: 'Space Grotesk Variable', sans-serif;
     font-size: 24px;
-    font-weight: 700;
 }
 
 label {
-    font-family: 'Space Grotesk Variable', sans-serif;
     font-size: 16px;
-    font-weight: 700;
 }
 
-.body-1 {
-    font-family: 'General Sans Medium', 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
-
-.body-2 {
-    font-family: 'General Sans Regular', 'Times New Roman', Times, serif;
+.body-1, .body-2 {
     font-size: 24px;
 }
 
 .body-3 {
-    font-family: 'General Sans Regular', 'Times New Roman', Times, serif;
     font-size: 16px;
+}
+
+.body-2, .body-3 {
+    font-family: 'General Sans Regular', 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
 }
