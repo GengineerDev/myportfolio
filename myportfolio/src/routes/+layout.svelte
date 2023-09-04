@@ -1,6 +1,6 @@
 <script>
-    import Navbar from "$lib/components/Navbar.svelte";
-    import Footer from "$lib/components/Footer.svelte";
+    import Navbar from "$lib/components/layouts/Navbar.svelte";
+    import Footer from "$lib/components/layouts/Footer.svelte";
     import '../styles.css';
 </script>
 

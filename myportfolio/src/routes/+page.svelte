@@ -4,11 +4,8 @@
 
 <script>
     import '@fontsource-variable/space-grotesk';
+    import AboutMe from '$lib/components/layouts/AboutMe.svelte';
 </script>
 
-<h1>Testing</h1>
-<p class="body-3">Hahaha.</p>
+<AboutMe />
 
-<div id="#about"></div>
-<div id="#works"></div>
-<div id="#contact"></div>
