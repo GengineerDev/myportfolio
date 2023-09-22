@@ -9,12 +9,6 @@
         width: 46.6rem;
     }
 
-    footer h3 {
-        background: var(--gradient);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
 
     footer p {
         color: var(--pantone-orange);
@@ -41,17 +35,17 @@
     <img src="/D.png" alt="Logo of David Genesis Pedeglorio" height="96px" /> 
     <div>
         <div class="footer-group">
-            <h3 class="subheadings-3">about.me</h3>
+            <h3 class="subheadings-3 gradient-text-background">about.me</h3>
             <p>Tech Stack</p>
         </div>
-        <h3 class="subheadings-3">works</h3>
+        <h3 class="subheadings-3 gradient-text-background">works</h3>
         <p>Projects</p>
         <p>Experiences</p>
         <p>Certificates</p>
         <p>Other Engagements</p>
     </div>
     <div>
-        <h3 class="subheadings-3">contact.me</h3>
+        <h3 class="subheadings-3 gradient-text-background">contact.me</h3>
         <div class="footer-social-icons">
             <img src="/icons/fb-dark.svg" alt="Facebook" height="52.92px" />
             <img src="/icons/ig-dark.svg" alt="Instagram" height="52.92px" />

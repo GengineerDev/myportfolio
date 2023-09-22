@@ -19,10 +19,6 @@
         font-family: 'Space Grotesk Variable';
         font-size: 32px;
         font-weight: 700;
-        background: var(--gradient, linear-gradient(166deg, #FF5800 -2.33%, #FF8A00 90.04%));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
         margin-bottom: 16px;
     }
 
@@ -33,7 +29,7 @@
 </style>
 
 <div class="action-card">
-    <h2>{title}</h2>
+    <h2 class="gradient-text-background">{title}</h2>
     <p class="body-3">{paragraph}</p>
     <Button size=''>{buttonText}</Button>
 </div>

@@ -73,3 +73,10 @@ label {
 a {
     text-decoration: none;
 }
+
+.gradient-text-background {
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
