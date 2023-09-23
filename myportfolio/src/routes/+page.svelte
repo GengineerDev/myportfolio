@@ -8,10 +8,12 @@
 	import TechStack from '$lib/components/layouts/TechStack.svelte';
     import BlogSection from '$lib/components/layouts/BlogSection.svelte';
 	import ExperiencesSection from '$lib/components/layouts/ExperiencesSection.svelte';
+	import CertificatesSection from '$lib/components/layouts/CertificatesSection.svelte';
 </script>
 
 <AboutMe />
 <!-- <TechStack /> -->
 <ExperiencesSection />
+<CertificatesSection />
 <BlogSection />
 

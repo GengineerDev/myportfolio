@@ -4,21 +4,18 @@
 </script>
 
 <style>
-    .company-card-container {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap:wrap;
-        gap: 24px;
-        margin-top: 24px;
+
+    #experiences {
+        margin: 80px 0;
     }
 </style>
 
-<section>
+<section id="experiences">
     <center>
         <h2 class="gradient-text-background">&lt; EXPERIENCES &gt;</h2>
         <p class="subheadings-2 gradient-text-background">Here are the companies I've worked with.</p>
     </center>
-    <div class="company-card-container">
+    <div class="card-container">
         <CompanyCard
             imgPath="/icons/TENTEN.png"
             companyName="Tenten's Academy Online Tutorial"

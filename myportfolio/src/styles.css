@@ -80,3 +80,11 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap: 24px;
+    margin-top: 24px;
+}
