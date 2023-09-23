@@ -12,7 +12,7 @@
 </script>
 
 <AboutMe />
-<!-- <TechStack /> -->
+<TechStack />
 <ExperiencesSection />
 <CertificatesSection />
 <BlogSection />

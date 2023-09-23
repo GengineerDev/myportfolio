@@ -47,7 +47,7 @@
         display: flex;
         gap: 24px;
     }
-    .social-icons {
+    .about-social-icons {
         display: flex;
         gap: 16px;
         align-items: center;
@@ -66,7 +66,7 @@
             <p class="body-1 about-p">I am a web developer based in Bay, Laguna, Philippines. With one year of experience, I created multiple projects ranging from personal to e-commerce. I mainly speak Figma, HTML, CSS, and ReactJS for my frontend designs. For full-stack, I utilize MERN stack.</p>
             <section class="about-socials">
                 <Button size="large">Let&#39;s work together</Button>
-                <div class="social-icons">
+                <div class="about-social-icons">
                     <img src="/icons/fb.svg" alt="Facebook" height="52.92px" />
                     <img src="/icons/ig.svg" alt="Instagram" height="52.92px" />
                     <img src="/icons/linkedin.svg" alt="LinkedIn" height="52.92px" />
