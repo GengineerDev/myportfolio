@@ -22,7 +22,7 @@ html {
 
 body {
     color: var(--black);
-    padding: 120px 32px 0;
+    padding: 120px 120px 0 120px;
     background-color: var(--white);
     font-family: 'General Sans Medium', 'Times New Roman', Times, serif;
 }

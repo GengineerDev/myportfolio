@@ -17,6 +17,7 @@
       border-radius: 90px;
       border: 4px solid var(--pantone-orange);
       width: auto;
+      background: transparent;
     }
   
     .small-tag {
