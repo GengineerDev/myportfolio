@@ -11,8 +11,8 @@
         border-radius: 20px;
         border: 4px solid var(--pantone-orange);
         padding: 56px 48px;
-        width: 700px;
-        max-width: 700px;
+        width: 610px;
+        max-width: 610px;
     }
 
     .action-card h2 {
