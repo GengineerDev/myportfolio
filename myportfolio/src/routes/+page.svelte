@@ -9,6 +9,7 @@
     import BlogSection from '$lib/components/layouts/BlogSection.svelte';
 	import ExperiencesSection from '$lib/components/layouts/ExperiencesSection.svelte';
 	import CertificatesSection from '$lib/components/layouts/CertificatesSection.svelte';
+	import ContactForm from '$lib/components/layouts/ContactForm.svelte';
 </script>
 
 <AboutMe />
@@ -16,4 +17,5 @@
 <ExperiencesSection />
 <CertificatesSection />
 <BlogSection />
+<ContactForm />
 
