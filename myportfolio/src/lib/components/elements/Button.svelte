@@ -7,6 +7,7 @@
       color: var(--white);
       border: none;
       cursor: pointer;
+      width: 100%;
     }
 
     .button-medium {
