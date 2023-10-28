@@ -7,11 +7,14 @@
       color: var(--white);
       border: none;
       cursor: pointer;
-      width: 100%;
     }
 
     .button-medium {
       padding: 10px 6px;
+    }
+
+    .full-width {
+      width: 100%;
     }
 
     .button:hover {
@@ -38,22 +41,23 @@
 	 * @type {string}
 	 */
      export let size;
+     export let fullWidth = false;
 </script>
 
 {#if size === "large"}
-  <button class="button button-large">
+  <button class="button button-large {fullWidth ? 'full-width' : ''}">
     <p class="subheadings-1">
       <slot />
     </p>
   </button>
 {:else if size === "medium"}
-  <button class="button button-medium">        
+  <button class="button button-medium {fullWidth ? 'full-width' : ''}">        
     <label>
       <slot />
     </label>
   </button>
 {:else}
-  <button class="button button-medium">
+  <button class="button button-medium {fullWidth ? 'full-width' : ''}">
     <div class="with-arrow">
       <label>
         <slot />

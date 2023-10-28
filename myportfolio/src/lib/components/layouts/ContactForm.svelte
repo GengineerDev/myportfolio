@@ -27,7 +27,7 @@ import Input from '../elements/Input.svelte';
 		<Input labelText="Email" name="email" inputType="email" />
 	</div>
     <Input labelText="Project Description" name="project description" textarea={true} helperText="Feel free to describe your vision."/>
-    <Button size="large">Let&#39;s work together</Button>
+    <Button size="large" fullWidth={true}>Let&#39;s work together</Button>
 </div>
 
 <style>
