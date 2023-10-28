@@ -12,6 +12,7 @@
       width: 377px;
       max-width: 377px;
       padding: 56px 48px;
+      box-shadow: var(--shadow);
     }
   </style>
   

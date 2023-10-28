@@ -37,6 +37,7 @@ import Input from '../elements/Input.svelte';
 		border-radius: 0px 90px 0px 0px;
 		margin-bottom: 95px;
 		margin: inherit;
+		box-shadow: var(--shadow);
 	}
 
 	.p-subheading {

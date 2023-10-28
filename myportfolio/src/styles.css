@@ -8,6 +8,7 @@
     --white: #f7f9fc;
     --main-colors-gray-4: #292929;
     --gray: #676767;
+    --shadow: 3px 3px 4px 0px rgba(255, 255, 255, 0.30) inset, -12px -12px 20px 8px #FFF, 12px 12px 20px 3px rgba(198, 175, 162, 0.30);
 }
 
 *, ::before, ::after {

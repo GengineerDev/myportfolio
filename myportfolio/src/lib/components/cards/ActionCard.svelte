@@ -13,6 +13,7 @@
         padding: 56px 48px;
         width: 610px;
         max-width: 610px;
+        box-shadow: var(--shadow);
     }
 
     .action-card h2 {
