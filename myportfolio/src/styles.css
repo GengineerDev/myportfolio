@@ -1,0 +1,93 @@
+:root {
+    --pantone-orange: #FF5800;
+    --gradient: linear-gradient(166deg, #FF5800 -2.33%, #FF8A00 90.04%);
+    --gradient_yellow-orange: linear-gradient(265deg, #FFC635 5.6%, #FF7A00 118.86%);
+    --red_danger: #DC2626;
+    --green_success: #16A34A;
+    --black: #121212;
+    --white: #f7f9fc;
+    --main-colors-gray-4: #292929;
+    --gray: #676767;
+    --shadow: 3px 3px 4px 0px rgba(255, 255, 255, 0.30) inset, -12px -12px 20px 8px #FFF, 12px 12px 20px 3px rgba(198, 175, 162, 0.30);
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid var(--black); */
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--black);
+    padding: 120px 120px 0 120px;
+    background-color: var(--white);
+    font-family: 'General Sans Medium', 'Times New Roman', Times, serif;
+}
+
+h1, h2, .subheadings-1, .subheadings-3, label {
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-weight: 700;
+}
+
+.display {
+    font-family: 'General Sans Semibold', 'Times New Roman', Times, serif;
+    font-size: 64px;
+}
+
+h1, h2 {
+    font-size: 48px;
+}
+
+.subheadings-1 {
+    font-size: 32px;
+}
+
+.subheadings-2 {
+    font-family: 'General Sans Medium', 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.subheadings-3 {
+    font-size: 24px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.body-1, .body-2 {
+    font-size: 24px;
+}
+
+.body-3 {
+    font-size: 16px;
+}
+
+.body-2, .body-3 {
+    font-family: 'General Sans Regular', 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gradient-text-background {
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap: 24px;
+    margin-top: 24px;
+}
