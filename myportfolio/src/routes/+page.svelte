@@ -10,12 +10,14 @@
 	import ExperiencesSection from '$lib/components/layouts/ExperiencesSection.svelte';
 	import CertificatesSection from '$lib/components/layouts/CertificatesSection.svelte';
 	import ContactForm from '$lib/components/layouts/ContactForm.svelte';
+	import EngagementsSection from '$lib/components/layouts/EngagementsSection.svelte';
 </script>
 
 <AboutMe />
 <TechStack />
 <ExperiencesSection />
 <CertificatesSection />
+<EngagementsSection />
 <BlogSection />
 <ContactForm />
 
