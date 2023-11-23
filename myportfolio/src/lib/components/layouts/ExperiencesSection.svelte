@@ -36,10 +36,6 @@
             imgPath="/icons/Pixel8.jpg"
             companyName="Pixel8 Web Solutions & Consultancy Inc"
         />
-        <CompanyCard
-            imgPath="/icons/ChefWorks.png"
-            companyName="Chefworks Philippines"
-        />
     </div>
     
 </section>

@@ -86,7 +86,7 @@ a {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap:wrap;
     gap: 24px;
     margin-top: 24px;
